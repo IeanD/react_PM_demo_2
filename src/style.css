@@ -1,0 +1,175 @@
+body {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-family: 'Catamaran', serif;
+}
+
+.container {
+    max-width: 550px;
+}
+
+h1{
+    font-family: 'Bree Serif', serif; 
+}
+
+h3 {
+    margin: 0px;
+    font-weight: bold;
+}
+
+a {
+    color: #C1C2C4;
+}
+
+a:hover {
+    color: gray;
+}
+
+.settingsLink {
+    font-size: 30px;
+    color: gray;
+    float: right;
+}
+
+.heading {
+    padding-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 80px;
+}
+
+.heading-link, .heading-link:hover, .heading-link:active, .heading-link:visited, .heading-link:link {
+    color: black;
+    text-decoration: none;
+}
+
+.newTaskForm {
+    text-align: center;
+    margin-bottom: 30px;
+    height: 100px;
+}
+
+.taskNameInput {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 35px;
+    width: 70%;
+    float: left;
+}
+
+.priorityInput {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 35px;
+    width: 30%;
+}
+
+.formDueDate {
+    display: block;
+    padding: 10px 0px;
+}
+
+.dueDateInput {
+    height: 35px;
+    width: 76%;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.addTaskBtn-container {
+    margin-left: -10px;
+}
+
+.addTaskBtn {
+    font-size: 60px;
+    color: #C8EDFA;
+    border: none;
+    background: none;
+}
+
+.addTaskBtn:hover {
+    margin-top: -2px;
+    margin-bottom: 2px;
+    font-size: 62px;
+    color: #90daf4;
+}
+
+.taskCard {
+    margin-top: 20px;
+    border: 2px solid #E2E3E5;
+    background-color: #fcfcff;
+}
+
+.dueDate {
+    margin: 10px 0px 0px;
+}
+
+.priorityColorBar {
+    padding: 20px;
+}
+
+.high {
+    border-left: 30px solid #FFBDBD;
+}
+
+.med {
+    border-left: 30px solid #FFF6BD;
+}
+
+.low {
+    border-left: 30px solid #C7FFC7;
+}
+
+.tasks-appear {
+  opacity: 0.01;
+}
+
+.tasks-appear.tasks-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+#finishedTaskContainer{
+    margin-top: 80px;
+}
+
+.finishedTaskCard {
+    background-color: #E2E3E5;
+    color: gray;
+}
+
+.high-finished {
+    border-left: 30px solid #c99999;
+}
+
+.med-finished {
+    border-left: 30px solid #ccc496;
+}
+
+.low-finished {
+    border-left: 30px solid #9bc49b;
+}
+
+.priority-changed-alert {
+    margin-top: 15px;
+}
+.settings-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+}
+
+.taskStatusBtn {
+    float: right;
+    font-size: 23px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 992px) {
+    .newTaskForm {
+        text-align: center;
+        margin-bottom: 30px;
+        height: 200px;
+    }
+}
